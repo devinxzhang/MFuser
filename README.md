@@ -33,7 +33,7 @@
   tgt_dataset_dict = dict(..., data_root='[YOUR_DATA_FOLDER_ROOT]', ...)
   ```
 
-The final folder structure should look like this:
+- The final folder structure should look like this:
 
 ```
 MFuser
