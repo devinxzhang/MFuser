@@ -24,7 +24,7 @@
   pip install causal_conv1d==1.4.0
   ```
 
-## Pre-trained VFM &。VLM Models
+## Pre-trained VFM & VLM Models
 - Please download the pre-trained VFM and VLM models and save them in `./pretrained` folder.
 
   | Model | Type | Link |
