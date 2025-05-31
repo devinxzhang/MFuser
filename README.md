@@ -1,7 +1,7 @@
 # [CVPR 2025 Highlight] Mamba as a Bridge: Where Vision Foundation Models Meet Vision Language Models for Domain-Generalized Semantic Segmentation
 
 ### [**Mamba as a Bridge: Where Vision Foundation Models Meet Vision Language Models for Domain-Generalized Semantic Segmentation**](https://arxiv.org/abs/2504.03193)
->[Xin Zhang](https://scholar.google.com/citations?user=nSqxFpAAAAAJ&hl=zh-CN)\, [Robby T. Tan](https://tanrobby.github.io/)\
+>[Xin Zhang](https://devinxzhang.github.io/)\, [Robby T. Tan](https://tanrobby.github.io/)\
 >National University of Singapore\
 >CVPR 2025
 
