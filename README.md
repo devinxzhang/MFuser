@@ -24,15 +24,15 @@
   pip install causal_conv1d==1.4.0
   ```
 
-## Pre-trained VLM Models
-- Please download the pre-trained CLIP and EVA02-CLIP and save them in `./pretrained` folder.
+## Pre-trained VFM&VLM Models
+- Please download the pre-trained VFM and VLM models and save them in `./pretrained` folder.
 
   | Model | Type | Link |
   |-----|-----|:-----:|
-  | DINOv2 | `dinov2_vitl14_pretrain.pth` |[download link](https://drive.google.com/file/d/1Rrl0RfU51eU8orbNVWHtNr1L3k5xhnld/view?usp=drive_link)|
-  | CLIP | `ViT-L-14-336px.pt` |[download link](https://drive.google.com/file/d/1s00ofvxn0NCVVgnycXd2wUx4Gs53O6mj/view?usp=drive_link)|
-  | EVA02-CLIP | `EVA02_CLIP_L_336_psz14_s6B.pt` |[download link](https://drive.google.com/file/d/1mQJ1zc_YLt7qAbaAET4-2EGNtIp2I6eB/view?usp=drive_link)|
-  | SIGLIP | `siglip_vitl16_384.pth` |[download link](https://drive.google.com/file/d/1PezEbwpqlasSYH2KPtU3aUD4hCzk9uE-/view?usp=drive_link)|
+  | DINOv2 | `dinov2_vitl14_pretrain.pth` |[download link](https://drive.google.com/file/d/1Rrl0RfU51eU8orbNVWHtNr1L3k5xhnld/view?usp=sharing)|
+  | CLIP | `ViT-L-14-336px.pt` |[download link](https://drive.google.com/file/d/1s00ofvxn0NCVVgnycXd2wUx4Gs53O6mj/view?usp=sharing)|
+  | EVA02-CLIP | `EVA02_CLIP_L_336_psz14_s6B.pt` |[download link](https://drive.google.com/file/d/1mQJ1zc_YLt7qAbaAET4-2EGNtIp2I6eB/view?usp=sharing)|
+  | SIGLIP | `siglip_vitl16_384.pth` |[download link](https://drive.google.com/file/d/1PezEbwpqlasSYH2KPtU3aUD4hCzk9uE-/view?usp=sharing)|
 
 ## Datasets
 - To set up datasets, please follow [the official **TLDR** repo](https://github.com/ssssshwan/TLDR/tree/main?tab=readme-ov-file#setup-datasets).
