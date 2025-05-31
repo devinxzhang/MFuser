@@ -34,6 +34,18 @@
   | EVA02-CLIP | `EVA02_CLIP_L_336_psz14_s6B.pt` |[download link](https://drive.google.com/file/d/1mQJ1zc_YLt7qAbaAET4-2EGNtIp2I6eB/view?usp=sharing)|
   | SIGLIP | `siglip_vitl16_384.pth` |[download link](https://drive.google.com/file/d/1PezEbwpqlasSYH2KPtU3aUD4hCzk9uE-/view?usp=sharing)|
 
+## Checkpoints
+- You can download **MFuser** model checkpoints:
+
+  | Model | Pretrained | Trained on | Config | Link |
+  |-----|-----|-----|-----|:-----:|
+  | `mfuser-clip-vit-l-cityscapes` | CLIP | Cityscapes | [config](https://github.com/devinxzhang/MFuser/blob/main/configs/mfuser/mfuser_clip_vit-l_1e-4_20k-c2m-512.py) |[download link](https://drive.google.com/drive/folders/1M0AVa0f81ifm-Bi1gbIW6KDa5CN86S67?usp=sharing)|
+  | `mfuser-clip-vit-l-gta` | CLIP | GTA5 | [config](https://github.com/devinxzhang/MFuser/blob/main/configs/mfuser/mfuser_clip_vit-l_1e-4_20k-g2c-512.py) |[download link](https://drive.google.com/drive/folders/1eVVkFQqYf16vlDOdRHr6GBd7y8MfKM9D?usp=sharing)|
+  | `mfuser-eva02-clip-vit-l-city` | EVA02-CLIP | Cityscapes | [config](https://github.com/devinxzhang/MFuser/blob/main/configs/mfuser/mfuser_eva_vit-l_1e-4_20k-c2m-512.py) |[download link](https://drive.google.com/drive/folders/1pHzAY6RnAY37g7YQ2EywUWUz5DES-9aB?usp=sharing)|  
+  | `mfuser-eva02-clip-vit-l-gta` | EVA02-CLIP | GTA5 | [config](https://github.com/devinxzhang/MFuser/blob/main/configs/mfuser/mfuser_eva_vit-l_1e-4_20k-g2c-512.py) |[download link](https://drive.google.com/drive/folders/1D16a4cldw6iD1NV4a0rPZbEpKS51QFgs?usp=sharing)| 
+  | `mfuser-siglip-vit-l-city` | SIGLIP | Cityscapes | [config](https://github.com/devinxzhang/MFuser/blob/main/configs/mfuser/mfuser_siglip_vit-l_1e-4_20k-c2m-512.py) |[download link](https://drive.google.com/drive/folders/1Jgra4vENT0fIurXlCFvBvAxJnQFga6JJ?usp=sharing)| 
+  | `mfuser-siglip-vit-l-gta` | SIGLIP | GTA5 | [config](https://github.com/devinxzhang/MFuser/blob/main/configs/mfuser/mfuser_siglip_vit-l_1e-4_20k-g2c-512.py) |[download link](https://drive.google.com/drive/folders/1Z2xCzSzmlp1QdM8ebENOR0UxHrgzNFIB?usp=sharing)| 
+
 ## Datasets
 - To set up datasets, please follow [the official **TLDR** repo](https://github.com/ssssshwan/TLDR/tree/main?tab=readme-ov-file#setup-datasets).
 - After downloading the datasets, edit the data folder root in [the dataset config files](https://github.com/ByeongHyunPak/tqdm/tree/main/configs/_base_/datasets) following your environment.
