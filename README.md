@@ -39,7 +39,7 @@
 
   | Model | Pretrained | Trained on | Config | Link |
   |-----|-----|-----|-----|:-----:|
-  | `mfuser-clip-vit-l-cityscapes` | CLIP | Cityscapes | [config](https://github.com/devinxzhang/MFuser/blob/main/configs/mfuser/mfuser_clip_vit-l_1e-4_20k-c2m-512.py) |[download link](https://drive.google.com/drive/folders/1M0AVa0f81ifm-Bi1gbIW6KDa5CN86S67?usp=sharing)|
+  | `mfuser-clip-vit-l-city` | CLIP | Cityscapes | [config](https://github.com/devinxzhang/MFuser/blob/main/configs/mfuser/mfuser_clip_vit-l_1e-4_20k-c2m-512.py) |[download link](https://drive.google.com/drive/folders/1M0AVa0f81ifm-Bi1gbIW6KDa5CN86S67?usp=sharing)|
   | `mfuser-clip-vit-l-gta` | CLIP | GTA5 | [config](https://github.com/devinxzhang/MFuser/blob/main/configs/mfuser/mfuser_clip_vit-l_1e-4_20k-g2c-512.py) |[download link](https://drive.google.com/drive/folders/1eVVkFQqYf16vlDOdRHr6GBd7y8MfKM9D?usp=sharing)|
   | `mfuser-eva02-clip-vit-l-city` | EVA02-CLIP | Cityscapes | [config](https://github.com/devinxzhang/MFuser/blob/main/configs/mfuser/mfuser_eva_vit-l_1e-4_20k-c2m-512.py) |[download link](https://drive.google.com/drive/folders/1pHzAY6RnAY37g7YQ2EywUWUz5DES-9aB?usp=sharing)|  
   | `mfuser-eva02-clip-vit-l-gta` | EVA02-CLIP | GTA5 | [config](https://github.com/devinxzhang/MFuser/blob/main/configs/mfuser/mfuser_eva_vit-l_1e-4_20k-g2c-512.py) |[download link](https://drive.google.com/drive/folders/1D16a4cldw6iD1NV4a0rPZbEpKS51QFgs?usp=sharing)| 
