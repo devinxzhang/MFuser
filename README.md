@@ -103,7 +103,7 @@ python train.py configs/[TRAIN_CONFIG]
 ## Evaluation
   Run the evaluation:
   ```
-  python test.py configs/[TEST_CONFIG] work_dirs/[MODEL] --eval mIoU
+  python test.py configs/[TEST_CONFIG] work_dirs_d/[MODEL] --eval mIoU
   ```
 
 ## Citation
