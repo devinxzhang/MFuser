@@ -197,4 +197,4 @@ optimizer = dict(type='AdamW', lr=1e-4, weight_decay=1e-5,
                         'query_embed': dict(decay_mult=0.),
                         'norm': dict(decay_mult=0.)}))
 
-work_dir = './work_dirs_ddd'
+work_dir = './work_dirs_d'
