@@ -35,7 +35,7 @@
   | SIGLIP | `siglip_vitl16_384.pth` |[download link](https://drive.google.com/file/d/1PezEbwpqlasSYH2KPtU3aUD4hCzk9uE-/view?usp=sharing)|
 
 ## Checkpoints
-- You can download **MFuser** model checkpoints and save them in `./work_dirs_d` folder.
+- You can download **MFuser** model checkpoints and save them in `./work_dirs_d` folder. By default, all experiments below use DINOv2-L as the VFM. 
 
   | Model | Pretrained | Trained on | Config | Link |
   |-----|-----|-----|-----|:-----:|
