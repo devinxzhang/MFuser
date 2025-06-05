@@ -113,7 +113,7 @@ class Attention(nn.Module):
         x = self.proj_drop(x)
         return x
 
-class TransformerDecoderLayer(nn.Module):
+class MTEnhancer(nn.Module):
 
     def __init__(
         self,
@@ -136,10 +136,10 @@ class TransformerDecoderLayer(nn.Module):
             nn.Linear(d_model * 4, d_model)
         )
 
-    def forward(self, x, mem):
+    def forward(self, x, visual):
         q = k = v = self.norm1(x)
         x = x + self.self_attn(q, k, v)
-        x_m_x = self.cross_attn(torch.cat([self.norm2(x), mem, self.norm2(x)], dim=1))
+        x_m_x = self.cross_attn(torch.cat([self.norm2(x), visual, self.norm2(x)], dim=1))
         x = x + x_m_x[:, :x.shape[1], :] + x_m_x[:, -x.shape[1]:, :]
         x = x + self.dropout(self.mlp(self.norm3(x)))  
         
@@ -557,7 +557,7 @@ class ContextDecoder(nn.Module):
         )
 
         self.decoder = nn.ModuleList([
-                    TransformerDecoderLayer(transformer_width, transformer_heads, dropout) for _ in range(transformer_layers)
+                    MTEnhancer(transformer_width, transformer_heads, dropout) for _ in range(transformer_layers)
                 ])
         
         self.out_proj = nn.Sequential(
